@@ -57,9 +57,9 @@ def StructureDataScala() : Unit ={
   //tuple
   val non_tuple : (String, Int, Boolean) = ("jvc", 40, true)
   val tuple2 = (45, " lion", "terre", false)
-  val vehicule2 = ("Moteur diesel", " Automatic", Vehicule("143242", "red", "auto","4cyl 2.0L turbo", true))
+  //val vehicule2 = ("Moteur diesel", " Automatic", Vehicule("143242", "red", "auto","4cyl 2.0L turbo", true))
   println(tuple2._3.toUpperCase)
-  vehicule2._3.Moteur_type
+  //vehicule2._3.Moteur_type
 
   //Map
   val villes : Map[String, String] = Map(
